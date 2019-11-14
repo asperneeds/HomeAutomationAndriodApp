@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="@color/colorbackground"
+
+    tools:context=".ConnectToDevice">
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tabsupper">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/tablayout">
+
+            <android.support.v7.widget.Toolbar
+                android:id="@+id/adddevicetoolbar"
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"
+                android:background="?attr/colorPrimary"
+                app:titleTextColor="@color/white">
+
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:gravity="start"
+                    android:id="@+id/toolbartitle"
+                    android:textColor="@color/white"
+                    android:textSize="17sp"
+                    android:textStyle="bold" />
+
+
+            </android.support.v7.widget.Toolbar>
+
+
+
+
+            <ImageButton
+                android:id="@+id/img_back"
+                style="@style/Widget.AppCompat.Button.Borderless"
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_centerVertical="true"
+                app:srcCompat="@drawable/ic_backbutton"
+                tools:ignore="RtlHardcoded" />
+
+
+        </RelativeLayout>
+    </android.support.design.widget.AppBarLayout>
+
+    <TextView
+        android:layout_width="302dp"
+        android:layout_height="70dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="40dp"
+        android:gravity="center"
+
+        android:text="You must connect to Device Wifi Network to control Switches "
+        android:textColor="@color/white"
+        android:textSize="12sp" />
+
+    <!--<TextView-->
+        <!--android:layout_width="231dp"-->
+        <!--android:layout_height="79dp"-->
+        <!--android:layout_gravity="center"-->
+        <!--android:layout_marginTop="40dp"-->
+        <!--android:gravity="center"-->
+        <!--android:text="Make sure Your Device  is in Listening Mode "-->
+        <!--android:textColor="#000"-->
+        <!--android:textSize="20sp" />-->
+
+    <ImageView
+        android:layout_width="173dp"
+        android:layout_height="126dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="40dp"
+        app:srcCompat="@drawable/ic_wifibttn" />
+
+    <TextView
+        android:layout_width="260dp"
+        android:layout_height="58dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="40dp"
+        android:gravity="center"
+        android:text="Make sure Your Device  is in Listening Mode "
+        android:textColor="@color/white"
+        android:textSize="16sp" />
+
+    <Button
+        android:id="@+id/wifi_connect"
+        android:layout_width="180dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/shaperadius"
+        android:elevation="2dp"
+        android:text="Connect"
+        android:textColor="@color/white" />
+
+
+
+</LinearLayout>

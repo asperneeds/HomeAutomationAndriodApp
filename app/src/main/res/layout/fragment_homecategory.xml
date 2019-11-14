@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorbackground"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+    tools:context=".fragments.HomeCategory">
+
+    <FrameLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+        android:id="@+id/l">
+        <!--android:layout_marginTop="?android:attr/actionBarSize"-->
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:ignore="UselessParent">
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/rv"
+                android:layout_height="match_parent"
+                android:layout_width="match_parent"
+                android:indicatorLeft="?android:attr/expandableListPreferredItemIndicatorLeft"
+                android:divider="@android:color/darker_gray"
+                android:dividerHeight="0.5dp" />
+
+        </RelativeLayout>
+
+
+    </FrameLayout>
+     <android.support.design.widget.FloatingActionButton
+         android:id="@+id/fab"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_alignParentBottom="true"
+         android:layout_alignParentEnd="true"
+         android:background="@color/white"
+
+         android:layout_gravity="bottom|end"
+         android:layout_marginBottom="20dp"
+         android:layout_marginRight="20dp"
+         app:srcCompat="@android:drawable/ic_input_add"
+         android:visibility="visible"
+         android:layout_alignParentRight="true" />
+
+
+</android.support.design.widget.CoordinatorLayout>

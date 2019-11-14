@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "369781978239",
+    "firebase_url": "https://fir-message-c6451.firebaseio.com",
+    "project_id": "fir-message-c6451",
+    "storage_bucket": "fir-message-c6451.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:369781978239:android:4a4aa3f4b2444cc6",
+        "android_client_info": {
+          "package_name": "com.ngxtech.homeautomation"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "369781978239-2em2h4hfas6382ir0gussk4he1kg9qoh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDQ7L6DAuAQuMnZmirzDYkd-1g2R49EmNY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

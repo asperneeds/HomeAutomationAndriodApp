@@ -1,0 +1,120 @@
+<resources>
+    <string name="app_name">HomeAutomation</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="Password">Password</string>
+    <string name="Username_mobile">Username or Mobile</string>
+    <string name="title_activity_dashboard">Dashboard</string>
+    <string name="title_home">Home</string>
+    <string name="Device">Device</string>
+    <string name="Profile">Profile</string>
+
+
+    <string name="settings">Settings</string>
+    <string name="shared_devices">Shared Devices</string>
+    <string name="logout">Logout</string>
+    <string name="devices">Devices</string>
+    <string name="device_name">Device Name</string>
+    <string name="ssid">SSID</string>
+    <string name="device_type">Device Type</string>
+    <string name="title_activity_device_list">DeviceList</string>
+    <string name="First_Name">First Name :</string>
+    <string name="First">First </string>
+    <string name="FirstName">First Name </string>
+    <string name="Last_Name">Last Name :</string>
+    <string name="Last">Last </string>
+    <string name="LastName">Last Name </string>
+    <string name="User_Name">User Name</string>
+    <string name="email_phone">Email or Mobile Number</string>
+    <string name="email">Email</string>
+    <string name="mobile">Mobile</string>
+    <string name="Contacts">Contacts</string>
+    <string name="Contact">Contact</string>
+    <string name="Leads">Leads</string>
+    <string name="User_type">User Type</string>
+    <string name="password">Password</string>
+    <string name="Forgot_Password">Forgot Password ?</string>
+    <string name="confirm_password">confirm Password</string>
+    <string name="enter_new_password">Enter New Password</string>
+    <string name="telephone">Telephone</string>
+    <string name="alternate_number">Alternate Number</string>
+    <string name="business_name">Business Name</string>
+    <string name="address">Address</string>
+    <string name="address1">Address-1</string>
+    <string name="address2">Address-2</string>
+    <string name="add">Add</string>
+    <string name="pin">Pin</string>
+    <string name="city">City</string>
+    <string name="place">Place</string>
+    <string name="state">State</string>
+    <string name="status">Status</string>
+    <string name="country">Country</string>
+    <string name="gps">GPS</string>
+    <string name="Login">Login</string>
+    <string name="user_id">User ID</string>
+    <string name="New_Register">New Register</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="subscribe">Subscribe</string>
+    <string name="New">New</string>
+    <string name="Done">Done</string>
+    <string name="no_internet_connection">No Internet Connection !!</string>
+    <string name="enter_otp">Enter OTP</string>
+    <string name="get_otp">Get OTP</string>
+    <string name="edit">Edit</string>
+    <string name="submit">Submit</string>
+    <string name="enter_text">Enter Text</string>
+    <string name="currentpassword">Current Password</string>
+    <string name="new_password">New Password</string>
+    <string name="profile">Profile</string>
+    <string name="user_name">User Name</string>
+    <string name="Reset_psw">Reset Password</string>
+    <string name="DevileList">DevileList</string>
+
+    <string name="edit_profile">Edit Profile</string>
+    <string name="profile_page">Profile</string>
+    <string name="device_list">DeviceList</string>
+    <string name="VoltageMeterList">VoltageMeterList</string>
+    <string name="voltage_meter">Voltage Meter</string>
+    <string name="current_meter">Current Meter</string>
+
+    <string name="title_activity_welcome">Home Screen</string>
+    <string name="next">NEXT</string>
+    <string name="skip">SKIP</string>
+    <string name="start">GOT IT</string>
+    <string name="lbl_new_note_title">New Category</string>
+    <string name="lbl_edit_note_title">Edit Category</string>
+
+    <string name="lbl_edit_note_title2">Update Switch Name</string>
+
+    <string name="slide_1_title">Hello Food!</string>
+    <string name="slide_1_desc">The easiest way to order food from your favourite restaurant!</string>
+
+    <string name="slide_2_title">Movie Tickets</string>
+    <string name="slide_2_desc">Book movie tickets for your family and friends!</string>
+
+    <string name="slide_3_title">Great Discounts</string>
+    <string name="slide_3_desc">Best discounts on every single service we offer!</string>
+
+    <string name="slide_4_title">World Travel</string>
+    <string name="slide_4_desc">Book tickets of any transportation and travel the world!</string>
+
+    <string name="play_again_desc">To see the welcome slider again, goto Settings -> apps -> welcome slider -> clear data</string>
+    <string name="play_again">Play Again</string>
+
+    <string-array name="ranges">
+        <item>0</item>
+        <item>10</item>
+        <item>20</item>
+        <item>30</item>
+        <item>40</item>
+        <item>50</item>
+        <item>60</item>
+        <item>70</item>
+        <item>80</item>
+        <item>90</item>
+        <item>100</item>
+    </string-array>
+
+</resources>

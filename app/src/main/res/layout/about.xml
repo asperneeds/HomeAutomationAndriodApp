@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="20dp"
+        android:layout_marginTop="150dp"
+        android:layout_gravity="center"
+        android:text="HomeAutomation"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:textColor="#5c6bc0"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        android:text="Version      :   1.0"
+        android:gravity="center"
+        android:textSize="12sp"
+        android:textColor="#5c6bc0"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        android:text="#12,20th Cross,Near VijayaNetralaya,Malagala, Nagarahabhavi 2nd stage,, Bengaluru, Karnataka 560091"
+        android:gravity="center"
+        android:textSize="12sp"
+        android:textColor="#5c6bc0"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        android:text="www.ngxtechnologies.com"
+        android:gravity="center"
+        android:textSize="12sp"
+       android:autoLink="web"
+
+        android:linksClickable="true"
+        android:textColor="#5c6bc0"
+        />
+
+
+</LinearLayout>

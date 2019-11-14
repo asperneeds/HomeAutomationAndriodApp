@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/colorbackground"
+
+
+  >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white"
+        android:orientation="vertical">
+
+
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:layout_marginTop="10dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Settings"
+                    android:layout_marginTop="5dp"
+                    android:padding="10dp"
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="15sp"
+                    android:textStyle="bold" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="10dp"
+                    android:layout_gravity="center"
+                    android:drawableLeft="@drawable/ic_account"
+                    android:text="@string/Profile"
+                    android:textSize="17sp"
+                     android:id="@+id/profileview"
+                    android:textColor="@color/black"
+
+                    android:layout_marginTop="10dp"
+                    />
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_marginTop="5dp"
+
+                    android:focusableInTouchMode="true"
+
+                    android:layout_height="0.2dp"
+                    android:background="@color/black"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="10dp"
+                    android:drawableLeft="@drawable/ic_passwd"
+                    android:text="Change Password"
+                    android:textSize="17sp"
+                    android:id="@+id/profile_change_password"
+                    android:textColor="@color/black"
+
+                    android:layout_marginTop="10dp"
+                    />
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_marginTop="5dp"
+
+                    android:focusableInTouchMode="true"
+
+                    android:layout_height="0.2dp"
+                    android:background="@color/black"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="10dp"
+                    android:drawableLeft="@drawable/ic_signout"
+                    android:text="Logout"
+                    android:textSize="17sp"
+                    android:textColor="@color/black"
+                    android:id="@+id/profile_logout"
+
+                    android:layout_marginTop="10dp"
+                    />
+
+
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardElevation="8dp"
+
+            android:layout_marginTop="10dp">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Support"
+                    android:layout_marginTop="5dp"
+                    android:padding="14dp"
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="15sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="10dp"
+                    android:text="Privacy Policy"
+                    android:textSize="17sp"
+                    android:textColor="@color/black"/>
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_marginTop="5dp"
+
+                    android:focusableInTouchMode="true"
+
+                    android:layout_height="0.2dp"
+                    android:background="@color/black"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="10dp"
+                    android:text="Help"
+                    android:textSize="17sp"
+                    android:textColor="@color/black"/>
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_marginTop="5dp"
+
+                    android:focusableInTouchMode="true"
+
+                    android:layout_height="0.2dp"
+                    android:background="@color/black"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="15dp"
+
+                    android:layout_marginTop="10dp"
+                    android:text="About"
+                    android:textSize="17sp"
+                    android:textColor="@color/black"/>
+
+
+            </LinearLayout>
+
+
+        </android.support.v7.widget.CardView>
+
+    </LinearLayout>
+</ScrollView>

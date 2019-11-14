@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="@color/colorbackground"
+
+    tools:context=".ConnectToDevice">
+
+    <TextView
+        android:layout_width="260dp"
+        android:layout_height="58dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="40dp"
+        android:gravity="center"
+        android:text="Make sure Your Device  is in Listening Mode "
+        android:textColor="@color/white"
+        android:textSize="16sp" />
+
+
+    <!--<TextView-->
+    <!--android:layout_width="231dp"-->
+    <!--android:layout_height="79dp"-->
+    <!--android:layout_gravity="center"-->
+    <!--android:layout_marginTop="40dp"-->
+    <!--android:gravity="center"-->
+    <!--android:text="Make sure Your Device  is in Listening Mode "-->
+    <!--android:textColor="#000"-->
+    <!--android:textSize="20sp" />-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="51dp"
+            android:layout_marginStart="40dp"
+            android:layout_marginTop="20dp"
+            app:srcCompat="@drawable/ic_phone"
+            android:layout_marginLeft="40dp" />
+
+        <com.trncic.library.DottedProgressBar
+            android:id="@+id/progress"
+            android:layout_width="150dp"
+            android:layout_height="0dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="5dp"
+            app:activeDot="@drawable/active_dot"
+            app:dotSize="14dp"
+            app:inactiveDot="@drawable/inactive_dot"
+            app:jumpingSpeed="670"
+            app:spacing="15dp" />
+
+        <ImageView
+            android:layout_width="107dp"
+            android:layout_height="67dp"
+            android:layout_marginTop="20dp"
+            app:srcCompat="@drawable/ic_devicesetup" />
+
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="125dp"
+        android:layout_height="179dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/circleshape1"
+        android:visibility="gone"
+        android:id="@+id/successful"
+
+        app:srcCompat="@drawable/ic_checkgreen" />
+
+    <Button
+        android:id="@+id/nextsetup"
+        android:layout_width="180dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/shaperadius"
+        android:elevation="2dp"
+        android:text="Connect"
+        android:textColor="@color/white" />
+
+    <Button
+        android:id="@+id/proceed"
+        android:layout_width="180dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+
+        android:background="@drawable/shaperadius"
+        android:elevation="2dp"
+        android:text="Proceed"
+        android:visibility="gone"
+        android:textColor="@color/white" />
+
+
+</LinearLayout>

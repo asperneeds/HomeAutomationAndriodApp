@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/colorbackground"
+>
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        app:contentPadding="12dp"
+        app:cardMaxElevation="8dp"
+        app:cardCornerRadius="4dp"
+        app:cardElevation="8dp"
+        android:padding="5dp"
+        android:layout_margin="5dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:text="Connected Device"
+                android:layout_margin="2dp"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                />
+            <ProgressBar
+                android:layout_width="80dp"
+                android:layout_height="60dp"
+                android:layout_gravity="center"
+                android:visibility="gone"
+                android:id="@+id/ssidprogressbar"
+                android:layout_margin="30dp"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="15dp"
+                android:layout_marginTop="10dp"
+                android:id="@+id/linearlayoutwifi"
+
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:background="@drawable/circleshape"
+                    app:srcCompat="@drawable/ic_right"
+                    android:layout_marginLeft="10dp" />
+
+                <TextView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:id="@+id/ssidname"
+
+                    android:textSize="17sp"
+                    android:layout_marginLeft="10dp" />
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:gravity="end">
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        app:srcCompat="@drawable/ic_lock"
+
+                        android:layout_gravity="center"
+                        />
+                    <ImageView
+                        android:layout_width="50dp"
+                        android:layout_height="30dp"
+                        app:srcCompat="@drawable/ic_wifi" />
+                </LinearLayout>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="30dp"
+                android:gravity="center">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:id="@+id/tryagain"
+                    android:visibility="gone"
+                    android:drawableRight="@drawable/ic_try"
+
+                    android:text="ReConnect"
+                    android:drawableEnd="@drawable/ic_try" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:contentPadding="12dp"
+        app:cardMaxElevation="8dp"
+        app:cardCornerRadius="4dp"
+        app:cardElevation="8dp"
+        android:padding="5dp"
+        android:id="@+id/linearlayoutwifilist"
+        android:layout_margin="5dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Available Wifi Networks"
+
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+                    android:drawableRight="@drawable/ic_try"
+                    android:text="Refresh"
+                    android:id="@+id/refreshwifilist"
+                    android:layout_marginEnd="10dp"
+                    android:textAlignment="viewEnd"
+
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    android:layout_marginRight="10dp"
+                    android:gravity="end" />
+
+            </LinearLayout>
+            <ProgressBar
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:visibility="gone"
+                android:id="@+id/listprogressbar"
+                android:layout_marginTop="20dp"/>
+            <ListView
+                android:layout_width="match_parent"
+                android:layout_margin="5dp"
+                android:id="@+id/wifilistview"
+                android:layout_height="match_parent">
+
+            </ListView>
+
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+
+</LinearLayout>
